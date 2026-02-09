@@ -11,6 +11,7 @@ body {
 
 main {
     flex: 1;
+    background-color: #ded1d1;
 }
 header {
     background-color: #222;
@@ -69,6 +70,13 @@ footer{
     text-align: center;
 }
 
+.fotos{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
 .contenido-formulario{
     border: 1px solid white;
 }
@@ -123,9 +131,18 @@ footer{
 button {
     width: 100%;
     padding: 12px;
-    color: #fff;
+    color: #ffffff;
     border: none;
+    background-color: #444;
     border-radius: 8px;
     font-size: 15px;
     cursor: pointer;
 }
+
+button:hover{
+    border: solid 1px #444;
+    background-color: #ffffff;
+    color: #333;
+}
+
+
