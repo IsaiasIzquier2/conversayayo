@@ -92,10 +92,10 @@ footer{
 .contact-container {
     height: 500px;
     padding: 10px;
-    margin: auto;
     display: flex;
     justify-content: center;
     align-content: center;
+    gap: 20px;
 }
 
 .contact-form {
@@ -145,4 +145,27 @@ button:hover{
     color: #333;
 }
 
+.contacto-form{
+    width: 500px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
 
+.whassap{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.gmail{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.contacto-form h2{
+    text-align: center;
+}
