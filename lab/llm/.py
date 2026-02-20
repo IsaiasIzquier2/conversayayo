@@ -1,19 +1,39 @@
-import os
-from openai import OpenAI
-from dotenv import load_dotenv
-import openai
-load_dotenv()
+import requests
+import urllib.parse
+
+def llm(prompt: str) -> str:
+    # Codificar correctamente el texto (MUY IMPORTANTE)
+    prompt_encoded = urllib.parse.quote_plus(prompt)
+
+    url = f"https://text.pollinations.ai/{prompt_encoded}"
+
+    response = requests.get(url, timeout=30)
+
+    # Debug básico por si falla
+    if response.status_code != 200:
+        return f"ERROR {response.status_code}: {response.text}"
+
+    return response.text.strip()
 
 
-client = openai.OpenAI(api_key=os.environ.get('DS_API_KEY_TEST1'), base_url="https://api.deepseek.com")
+def main():
+    print("LLM Pollinations (escribe 'salir' para terminar)\n")
 
-response = client.chat.completions.create(
-    model="deepseek-chat",
-    messages=[
-        {"role": "system", "content": "You are a helpful assistant"},
-        {"role": "user", "content": "Hello"},
-    ],
-    stream=False
-)
+    while True:
+        user_input = input("Tú: ")
 
-print(response.choices[0].message.content)
+        if user_input.lower() == "salir":
+            break
+
+        prompt = (
+            "Eres un asistente útil. "
+            "Responde en español y de forma clara. "
+            f"Pregunta: {user_input}"
+        )
+
+        respuesta = llm(prompt)
+        print("\nIA:", respuesta, "\n")
+
+
+if __name__ == "__main__":
+    main()
