@@ -66,8 +66,9 @@ ul li a:hover {
 footer{
     background-color: #222;
     color: white;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
+
 }
 
 .fotos{
@@ -104,6 +105,11 @@ footer{
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s;
+}
+
+.contact-form:hover{
+    transform: scale(1.05);
 }
 
 .contact-form h2 {
@@ -151,6 +157,11 @@ button:hover{
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s;
+}
+
+.contacto-form:hover {
+    transform: scale(1.05);
 }
 
 .whassap{
@@ -169,3 +180,21 @@ button:hover{
 .contacto-form h2{
     text-align: center;
 }
+
+ 
+/* Quienes somos*/
+.contenedor-personas {
+    display: flex;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s;
+    margin: auto;
+}
+
+.contenedor-personas:hover{
+    transform: scale(1.05);
+}
+
+
