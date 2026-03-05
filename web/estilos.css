@@ -183,18 +183,108 @@ button:hover{
 
  
 /* Quienes somos*/
-.contenedor-personas {
-    display: flex;
+.personas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: start;
+    padding: 40px;
+}
+
+.Titulo{
+    text-align: center;
+}
+.pedro{
+    width: 400px;
     background: #ffffff;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
     transition: transform 0.5s;
-    margin: auto;
 }
 
-.contenedor-personas:hover{
-    transform: scale(1.05);
+.pablo{
+    width: 400px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s;
 }
 
+.isaias{
+    width: 400px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s;
+}
 
+.chima{
+    width: 400px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s;
+}
+
+.dani{
+    width: 400px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s;
+}
+
+/*Página principal*/
+
+.paginaprincipal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 1000px;
+    margin:  auto;
+    min-width: 550px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.resumen{
+    width: 500px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s;
+}
+
+.Que_ofrecemos{
+    width: 500px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s;
+}
+
+.sobre_nosotros{
+    width: 500px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s;
+}
+
+.contacto{
+    width: 500px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s;
+}
