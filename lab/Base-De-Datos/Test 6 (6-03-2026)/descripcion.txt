@@ -1,0 +1,9 @@
+Conversayayo — Prototipo v0.1
+
+Crear un asistente conversacional para personas mayores que permita:
+
+conversar de forma natural
+
+recordar eventos importantes
+
+consultar recordatorios

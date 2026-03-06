@@ -1,0 +1,12 @@
+Conversayayo v0.2
+
+Tiene:
+
+✅ activación por palabra clave
+✅ conversación continua
+✅ detector de intención
+✅ memoria con SQLite
+✅ recordatorios
+✅ consulta de eventos
+✅ formato de fechas
+✅ arquitectura modular
