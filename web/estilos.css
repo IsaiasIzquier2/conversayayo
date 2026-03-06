@@ -185,26 +185,29 @@ button:hover{
 /* Quienes somos*/
 .personas {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    align-items: start;
-    padding: 40px;
+    grid-template-columns: repeat(3, 33%);
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    gap: 10px;
 }
 
 .Titulo{
     text-align: center;
 }
 .pedro{
-    width: 400px;
+    max-width: 400px;
     background: #ffffff;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
     transition: transform 0.5s;
+    justify-content: center;
+    align-content: center;
 }
 
 .pablo{
-    width: 400px;
+    max-width: 400px;
     background: #ffffff;
     padding: 30px;
     border-radius: 12px;
@@ -212,8 +215,14 @@ button:hover{
     transition: transform 0.5s;
 }
 
+.personas img{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
 .isaias{
-    width: 400px;
+    max-width: 400px;
     background: #ffffff;
     padding: 30px;
     border-radius: 12px;
@@ -222,7 +231,7 @@ button:hover{
 }
 
 .chima{
-    width: 400px;
+    max-width: 400px;
     background: #ffffff;
     padding: 30px;
     border-radius: 12px;
@@ -231,7 +240,7 @@ button:hover{
 }
 
 .dani{
-    width: 400px;
+    max-width: 400px;
     background: #ffffff;
     padding: 30px;
     border-radius: 12px;
