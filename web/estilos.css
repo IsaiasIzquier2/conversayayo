@@ -297,3 +297,33 @@ button:hover{
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
     transition: transform 0.5s;
 }
+
+
+.contenedor-producto{
+    width: 700px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fila{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fila p{
+    width: 45%;
+    text-align: left;
+}
+
+.fila img{
+    width: 45%;
+    height: auto;
+}
