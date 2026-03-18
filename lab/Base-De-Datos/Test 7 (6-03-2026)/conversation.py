@@ -9,7 +9,7 @@ def iniciar_conversacion():
         texto = input("Tú: ")
 
         if texto.lower() == "adios":
-            print("Asistente: Hasta luego 😊")
+            print("Asistente: Hasta luego")
             break
 
         intent = detectar_intencion(texto)
