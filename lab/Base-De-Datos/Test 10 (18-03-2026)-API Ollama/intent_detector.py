@@ -20,7 +20,7 @@ def detectar_intencion(texto):
         return "guardar_recordatorio"
 
     if "tengo algo" in texto or "que tengo" in texto:
-        return "consultar_eventos"
+        return "obtener_eventos"
 
     if "hora" in texto:
         return "hora"
