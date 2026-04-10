@@ -14,7 +14,6 @@ main {
     background-color: #ded1d1;
 }
 header {
-    background-color: #222;
     color: white;
     padding: 20px;
     text-align: center;
@@ -22,6 +21,13 @@ header {
     align-content: center;
     justify-content: center;
     height: 200px;
+    background: 
+        linear-gradient(135deg, rgba(0,0,0,0.7), rgba(80,80,80,0.5)),
+        url("imagenes/214900802-fondo-degradado-negro-abstracto-para-diseño-de-impresión-o-recursos-gráficos-espacio-en-blanco-para.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .texto{
@@ -64,11 +70,12 @@ ul li a:hover {
 }
 
 footer{
-    background-color: #222;
     color: white;
     padding: 15px;
     text-align: center;
-
+    background: 
+        linear-gradient(135deg, rgba(0,0,0,0.7), rgba(80,80,80,0.5)),
+        url("imagenes/214900802-fondo-degradado-negro-abstracto-para-diseño-de-impresión-o-recursos-gráficos-espacio-en-blanco-para.webp");
 }
 
 .fotos{
@@ -76,6 +83,11 @@ footer{
     gap: 20px;
     justify-content: center;
     align-content: center;
+    transition: transform 0.3s ease;
+}
+
+.fotos:hover {
+    transform: scale(1.05);
 }
 
 .contenido-formulario{
@@ -135,15 +147,22 @@ footer{
 }
 
 button {
-    width: 100%;
-    padding: 12px;
-    color: #ffffff;
-    border: none;
-    background-color: #444;
-    border-radius: 8px;
-    font-size: 15px;
-    cursor: pointer;
+  background: linear-gradient(135deg, #2c2c2c, #6b6b6b);
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 24px;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin: 10px;
 }
+
+button:hover {
+  background: linear-gradient(135deg, #3a3a3a, #8a8a8a);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
 
 button:hover{
     border: solid 1px #444;
@@ -206,6 +225,10 @@ button:hover{
     align-content: center;
 }
 
+.pedro:hover {
+    transform: scale(1.05);
+}
+
 .pablo{
     max-width: 400px;
     background: #ffffff;
@@ -213,6 +236,10 @@ button:hover{
     border-radius: 12px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
     transition: transform 0.5s;
+}
+
+.pablo:hover {
+    transform: scale(1.05);
 }
 
 .personas img{
@@ -230,6 +257,10 @@ button:hover{
     transition: transform 0.5s;
 }
 
+.isaias:hover {
+    transform: scale(1.05);
+}
+
 .chima{
     max-width: 400px;
     background: #ffffff;
@@ -239,6 +270,10 @@ button:hover{
     transition: transform 0.5s;
 }
 
+.chima:hover {
+    transform: scale(1.05);
+}
+
 .dani{
     max-width: 400px;
     background: #ffffff;
@@ -246,6 +281,10 @@ button:hover{
     border-radius: 12px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
     transition: transform 0.5s;
+}
+
+.dani:hover {
+    transform: scale(1.05);
 }
 
 /*Página principal*/
@@ -271,6 +310,10 @@ button:hover{
     transition: transform 0.5s;
 }
 
+.resumen:hover {
+    transform: scale(1.05);
+}
+
 .Que_ofrecemos{
     width: 500px;
     background: #ffffff;
@@ -278,6 +321,10 @@ button:hover{
     border-radius: 12px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
     transition: transform 0.5s;
+}
+
+.Que_ofrecemos:hover {
+    transform: scale(1.05);
 }
 
 .sobre_nosotros{
@@ -289,6 +336,10 @@ button:hover{
     transition: transform 0.5s;
 }
 
+.sobre_nosotros:hover {
+    transform: scale(1.05);
+}
+
 .contacto{
     width: 500px;
     background: #ffffff;
@@ -296,6 +347,10 @@ button:hover{
     border-radius: 12px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
     transition: transform 0.5s;
+}
+
+.contacto:hover {
+    transform: scale(1.05);
 }
 
 
@@ -309,6 +364,11 @@ button:hover{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    transition: transform 0.5s;
+}
+
+.contenedor-producto:hover {
+    transform: scale(1.05);
 }
 
 .fila{
