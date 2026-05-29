@@ -1,9 +1,7 @@
 ﻿# Conversayayo
 [Presentación Conversayayo](https://canva.link/w2surtm6mjc28la)
 
-Conversayayo es un asistente de voz pensado para acompañar a personas de avanzada edad y ayudar a reducir la soledad no deseada. La idea es que cualquier persona mayor pueda hablarle como si fuera alguien de casa, sin tocar ninguna pantalla ni teclado, solo con la voz.
-
-Este proyecto ha sido desarrollado en grupo como trabajo intermodular de segundo año de Grado Medio.
+Conversayayo es un asistente de voz pensado para acompañar a personas de avanzada edad y ayudar a reducir la soledad no deseada. La idea es que cualquier persona mayor pueda conversar con este asistente, sin tocar ninguna pantalla ni teclado, solo con la voz.
 
 ---
 
@@ -11,7 +9,7 @@ Este proyecto ha sido desarrollado en grupo como trabajo intermodular de segundo
 
 El asistente escucha de forma continua hasta que detecta la palabra clave "Conversayayo". En ese momento se activa, responde y empieza a conversar. Incluye gestion de recordatorios y citas, memoria conversacional, y limpieza automatica de eventos pasados cada medianoche.
 
-El modelo de lenguaje corre localmente mediante Ollama, lo que significa que las respuestas no dependen de ninguna API externa de pago. Para el reconocimiento y sintesis de voz se han evaluado dos opciones segun el entorno de despliegue: una version online para desarrollo y una version completamente offline pensada para la Raspberry Pi.
+El modelo de lenguaje corre localmente mediante Ollama, lo que significa que las respuestas no dependen de ninguna API externa de pago.
 
 ---
 
@@ -23,7 +21,7 @@ El modelo de lenguaje corre localmente mediante Ollama, lo que significa que las
 - Memoria conversacional entre turnos
 - Limpieza automatica de eventos pasados a medianoche
 - Modelo de lenguaje local con Ollama, sin APIs de pago
-- Modo texto para desarrollo y modo voz para produccion
+  
 
 ---
 
@@ -72,7 +70,7 @@ conversayayo/
 
 - Python 3.11+
 - [Ollama](https://ollama.com/) instalado en el sistema
-- Para la version offline (Raspberry Pi): micrófono USB y altavoz
+- (Raspberry Pi): micrófono USB y altavoz
 
 ### 1. Clonar el repositorio
 
@@ -100,7 +98,7 @@ pip install vosk sounddevice requests
 ollama pull llama3.2:3b
 ```
 
-### 4. Solo para Raspberry Pi: instalar Vosk y Piper
+### 4. Instalar Vosk y Piper
 
 ```bash
 # Modelo de reconocimiento de voz en espanol
