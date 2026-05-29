@@ -5,7 +5,7 @@ pipwin install pyaudio
 pip install SpeechRecognition
 pip install pyaudio
 
-pip install edge-tts pygame
+pip install edge-tts
 
 pip install dateparser
 
