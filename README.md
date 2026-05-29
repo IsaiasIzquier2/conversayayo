@@ -1,7 +1,6 @@
 ﻿# Conversayayo
 [Presentación Conversayayo](https://canva.link/w2surtm6mjc28la)
 
-# Conversayayo
 
 Conversayayo es un asistente de voz pensado para acompañar a personas de avanzada edad y ayudar a reducir la soledad no deseada. La idea es simple: que cualquier persona mayor pueda hablarle como si fuera alguien de casa, sin tocar ninguna pantalla ni teclado, solo con la voz.
 
