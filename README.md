@@ -16,7 +16,7 @@ El modelo de lenguaje corre localmente mediante Ollama, lo que significa que las
 ## Funcionalidades
 
 - Activacion por palabra clave ("Conversayayo")
-- Conversacion natural en espanol
+- Conversacion natural en español
 - Gestion de recordatorios y citas
 - Memoria conversacional entre turnos
 - Limpieza automatica de eventos pasados a medianoche
@@ -27,7 +27,7 @@ El modelo de lenguaje corre localmente mediante Ollama, lo que significa que las
 
 ## Tecnologias utilizadas
 
-| Componente | Desarrollo (online) |
+| Componente | Desarrollo |
 |---|---|
 | Reconocimiento de voz (STT) | SpeechRecognition + Google |
 | Sintesis de voz (TTS) | edge-tts + pygame |
