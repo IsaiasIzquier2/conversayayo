@@ -44,6 +44,8 @@ conversayayo/
 ├── lab/
 │   └── Base-De-Datos/
 │       └── Test 23 (version final)/
+│           ├── api                 # Carpeta API
+│           │   └── api.py          # Enlace con la API
 │           ├── main.py             # Punto de entrada
 │           ├── wakeword.py         # Deteccion de palabra clave
 │           ├── speech.py           # Reconocimiento de voz
