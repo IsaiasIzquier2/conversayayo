@@ -27,13 +27,13 @@ El modelo de lenguaje corre localmente mediante Ollama, lo que significa que las
 
 ## Tecnologias utilizadas
 
-| Componente | Desarrollo (online) | Raspberry Pi (offline) |
-|---|---|---|
-| Reconocimiento de voz (STT) | SpeechRecognition + Google | Vosk + modelo es-0.42 |
-| Sintesis de voz (TTS) | edge-tts + pygame | Piper + voz es_ES-mls_9972 |
-| Modelo de lenguaje (LLM) | Ollama + llama3.2:3b | Ollama + llama3.2:3b |
-| Base de datos | SQLite | SQLite |
-| Lenguaje principal | Python 3 | Python 3 |
+| Componente | Desarrollo (online) |
+|---|---|
+| Reconocimiento de voz (STT) | SpeechRecognition + Google |
+| Sintesis de voz (TTS) | edge-tts + pygame |
+| Modelo de lenguaje (LLM) | Ollama + llama3.2:3b |
+| Base de datos | SQLite |
+| Lenguaje principal | Python |
 
 ---
 
