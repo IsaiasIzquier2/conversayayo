@@ -87,11 +87,14 @@ cd conversayayo
 python3 -m venv ~/conversayayo-venv
 source ~/conversayayo-venv/bin/activate
 
-# Version desarrollo (online)
-pip install speechrecognition edge-tts pygame requests
+pip install pipwin
+pipwin install pyaudio
+pip install SpeechRecognition
+pip install pyaudio
 
-# Version Raspberry Pi (offline), sustituye speech.py y tts.py
-pip install vosk sounddevice requests
+pip install edge-tts pygame
+
+pip install dateparser
 ```
 
 ### 3. Descargar el modelo de lenguaje
@@ -100,23 +103,7 @@ pip install vosk sounddevice requests
 ollama pull llama3.2:3b
 ```
 
-### 4. Instalar Vosk y Piper
 
-```bash
-# Modelo de reconocimiento de voz en espanol
-wget https://alphacephei.com/vosk/models/vosk-model-small-es-0.42.zip
-unzip vosk-model-small-es-0.42.zip -d ~/model_stt
-
-# Piper (ARM64)
-wget https://github.com/rhasspy/piper/releases/download/v1.2.0/piper_arm64.tar.gz
-tar -xzf piper_arm64.tar.gz -C ~/piper --strip-components=1
-
-# Voz en espanol
-wget https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/es/es_ES/mls_9972/low/es_ES-mls_9972-low.onnx -P ~/
-wget https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/es/es_ES/mls_9972/low/es_ES-mls_9972-low.onnx.json -P ~/
-```
-
----
 
 ## Configuracion
 
